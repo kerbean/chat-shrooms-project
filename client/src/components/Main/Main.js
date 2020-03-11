@@ -191,7 +191,11 @@ class Main extends Component {
                             {console.log("USER LOGGING IN : " + this.state.user.displayName)}
                         </div>
                     ) : (
-                            <span className="login-first">Please login first before proceeding with the chat</span>
+                            <div className="main-list">
+                                <h4>
+                                    <div className="login-first">Please login first before proceeding with the chat</div>
+                                </h4>
+                            </div>
                         )
                 }
                 {
@@ -200,7 +204,7 @@ class Main extends Component {
                             {console.log("User to Form: " + this.state.user.displayName)}
                             {console.log("Email to Form: " + this.state.user.email)}
                             {console.log("Category: " + this.state.category)}
-                            <h4><span className="login-first">Click to get a random shroom!</span></h4>
+                            <h4><div className="login-first">Click to get a random shroom!</div></h4>
                             <div>
                                 <button
                                     className="main-button"
