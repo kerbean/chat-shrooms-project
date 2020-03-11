@@ -137,8 +137,8 @@ class Main extends Component {
     render() {
         return (
             <div className="main">
-                <div className="main-header">
-                    <img src={img} className="main-logo" alt="logo" data-aos="flip-down" data-aos-once="false" />
+                <div className="main-header" data-aos="flip-down" data-aos-once="false" data-aos-duration="3000">
+                    <img src={img} className="main-logo" alt="logo" />
                     {this.state.user ? (
                         < h1>
                             {

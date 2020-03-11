@@ -58,7 +58,7 @@ class Message extends Component {
 
     render() {
         return (
-            <div className="msg">
+            <div className="msg" data-aos="flip-down" data-aos-once="false" data-aos-duration="3000">
                 {/* {console.log("HEEEEEEEEEEY dbData: " + this.props.dbdata)} */}
 
                 {/* {this.props.dbdata}: */}
