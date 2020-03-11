@@ -81,7 +81,6 @@ export default class Form extends Component {
             console.log("NICKDB -- : ", this.props.nickDb.nickname);
             this.setState({ 'nickDb': this.props.nickDb.nickname });
         }
-        // console.log("ALLUSERSSSSS: " + JSON.stringify(this.props.allUsers));
         this.setMessageRef.bind(this);
         this.listenMessages();
 
@@ -119,13 +118,6 @@ export default class Form extends Component {
                 });
                 // console.log("LIST: " + JSON.stringify(this.state.list));
             });
-        // this.state.messageRef
-        //     .limitToLast(10)
-        //     .on('value', message => {
-        //         this.setState({
-        //             list: Object.values(message.val()),
-        //         });
-        //     });
     }
     render() {
         return (
