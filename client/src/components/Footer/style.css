@@ -1,0 +1,7 @@
+.foot {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(77, 77, 77);
+  -webkit-text-stroke: 1px white;
+}

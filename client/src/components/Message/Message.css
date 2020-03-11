@@ -1,0 +1,30 @@
+.msg {
+    position: relative;
+    padding: 10px 60px 10px 20px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(241, 211, 41);
+    text-align: left;
+    line-height: 1.7;
+    border-radius: 10px;
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-color: black;
+}
+
+.msg:first-child {
+    border-top: 2px solid black;
+}
+
+.msg:last-child {
+    border-bottom: 2px solid black;
+}
+
+/* .message:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .025);
+} */
+.user {
+    font-weight: 600;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 1);
+}

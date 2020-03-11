@@ -1,0 +1,35 @@
+  .app {
+    text-align: center;
+  }
+
+  .app-header {
+    background-color: rgb(31, 52, 143);
+    padding: 20px;
+    color: white;
+  }
+
+  .app-intro {
+    font-size: large;
+  }
+
+  .app-list {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .app-button {
+    border: 15px;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(241, 211, 41);
+    cursor: pointer;
+    opacity: .8;
+    outline: 0;
+  }
+
+  .app-button:hover {
+    opacity: 1;
+  }

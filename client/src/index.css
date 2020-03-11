@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  width:100%;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-color: rgb(97, 113, 255);
+}
+
