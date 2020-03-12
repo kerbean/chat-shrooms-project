@@ -132,7 +132,7 @@ export default class Form extends Component {
                     <input
                         className="form-input"
                         type="text"
-                        placeholder="Drop a great entrance!"
+                        placeholder="Drop a beat!"
                         value={this.state.message}
                         onChange={this.handleChange.bind(this)}
                         onKeyPress={this.handleKeyPress.bind(this)}

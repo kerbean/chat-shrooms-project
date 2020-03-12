@@ -9,5 +9,13 @@ html, body, #root {
   padding: 0;
   margin: 0;
   background-attachment: fixed;
-  background-color: rgb(97, 113, 255);
+  /* background-color: rgb(97, 113, 255); */
+}
+
+body{
+  background-image: url('https://wallpaperaccess.com/full/84248.png');
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    height: 100%;
 }

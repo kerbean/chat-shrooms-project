@@ -13,13 +13,14 @@
 }
 
 .main-header {
-
+  opacity: 0.8;
   background-color: rgb(31, 52, 143);
   padding: 20px;
   color: white;
 }
 
 .main-list {
+  margin-top: 50px;
   width: 100%;
   max-width: 600px;
   padding: 10px;

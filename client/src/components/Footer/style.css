@@ -1,5 +1,5 @@
 .foot {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 30px;
   width: 100%;
@@ -8,4 +8,7 @@
   color: rgb(78, 77, 77);
   background-color: rgb(0, 40, 75);
   -webkit-text-stroke: 1px white;
+  background-size: cover;
+  background-position:  center;
+  background-attachment: fixed;
 }
