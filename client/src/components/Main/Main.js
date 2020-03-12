@@ -204,7 +204,7 @@ class Main extends Component {
                             {console.log("User to Form: " + this.state.user.displayName)}
                             {console.log("Email to Form: " + this.state.user.email)}
                             {console.log("Category: " + this.state.category)}
-                            <h4><div className="login-first">Click to get a random shroom!</div></h4>
+                            <h4><div className="login-first">Generate a Shroom!!</div></h4>
                             <div>
                                 <button
                                     className="main-button"
