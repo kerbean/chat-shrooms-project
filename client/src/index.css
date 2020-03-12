@@ -13,7 +13,7 @@ html, body, #root {
 }
 
 body{
-  background-image: url('https://wallpaperaccess.com/full/84248.png');
+  background-image: url('img/bg.png');
     background-size: cover;
     background-position:  center;
     background-attachment: fixed;
